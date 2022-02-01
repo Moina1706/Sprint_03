@@ -1,0 +1,129 @@
+* {
+  margin: 0;
+  padding: 1;
+}
+
+#test0 {
+  border-style: dashed;
+  text-align: center;
+}
+
+#test1 {
+  line-height: 70px;
+  background-color: #cc9202;
+  margin-top: 5px;
+  margin-right: 150px;
+  margin-left: 180px;
+  padding-left: 30px;
+  font-size: 17px;
+  text-align: center;
+}
+#test2 {
+  line-height: 50px;
+  background-color: #8ecae6;
+  font-size: 20px;
+  margin-right: 150px;
+  margin-left: 180px;
+  text-align: center;
+}
+
+#test3 {
+  font-size: 20px;
+  text-align: center;
+  margin-inline: 7px;
+}
+
+#test4 {
+  line-height: 50px;
+  background-color: #8ecae6;
+  font-size: 20px;
+  margin-right: 150px;
+  margin-left: 180px;
+  text-align: center;
+}
+
+#test5 {
+  text-align: center;
+}
+
+#test6 {
+  align-items: center;
+}
+
+#table1 {
+  margin: auto;
+  font-family: arial, sans-serif;
+  border: 1px solid black;
+  border-collapse: collapse;
+  width: 50%;
+}
+
+h6 {
+  cursor: default;
+  margin-top: 40px;
+  font-size: 15px;
+  color: #ffffff;
+  font-family: "Montserrat", sans-serif;
+}
+
+#action1 {
+  margin-top: 15px;
+  width: 200px;
+  height: 40px;
+  background-color: rgba(9, 6, 46, 1);
+  color: white;
+  text-align: left;
+  font-size: 14px;
+  border: 2px solid rgba(9, 6, 46, 1);
+  border-radius: 10px;
+  font-family: "Lato", sans-serif;
+}
+#action1:hover {
+  background-color: rgb(105, 88, 163);
+  cursor: pointer;
+  border: 2px double white;
+}
+
+#action2 {
+  margin-top: 15px;
+  width: 200px;
+  height: 40px;
+  background-color: rgba(9, 6, 46, 1);
+  color: white;
+  text-align: left;
+  font-size: 14px;
+  border: 2px solid rgba(9, 6, 46, 1);
+  border-radius: 10px;
+  font-family: "Lato", sans-serif;
+}
+#action2:hover {
+  background-color: rgb(105, 88, 163);
+  cursor: pointer;
+  border: 2px double white;
+}
+
+#action3 {
+  margin-top: 15px;
+  width: 200px;
+  height: 40px;
+  background-color: rgba(9, 6, 46, 1);
+  color: white;
+  text-align: left;
+  font-size: 14px;
+  border: 2px solid rgba(9, 6, 46, 1);
+  border-radius: 10px;
+  font-family: "Lato", sans-serif;
+}
+#action3:hover {
+  background-color: rgb(105, 88, 163);
+  cursor: pointer;
+  border: 2px double white;
+}
+#action4 {
+  background-color: rgb(251, 166, 27);
+}
+#action4:hover {
+  background-color: rgb(236, 223, 34);
+  cursor: pointer;
+  border: 2px double white;
+}

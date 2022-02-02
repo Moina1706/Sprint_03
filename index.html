@@ -3,12 +3,11 @@
   <head>
     <title>DISTRIBUTEUR DE TICKET</title>
     <meta charset="utf-8" />
-    <script
-      src="https://kit.fontawesome.com/677c526923.js"
-      crossorigin="anonymous"
-    ></script>
+
     <link rel="stylesheet" href="styles.css" />
+    <script src="fifo.js"></script>
   </head>
+
   <body>
     <br /><br />
     <div id="test0">
@@ -18,14 +17,19 @@
       <br /><br />
       <div id="test2">
         <p id="text">
-          <i class="fa-regular fa-alien"></i>
-          Ici c'est comme à la poissonerie img, il faut faire la queue !
+          <img src="img/alien.jpg" width="50" height="33" />
+          Ici c'est comme à la poissonerie
+          <img src="img/fish.jpg" width="50" height="33" />, il faut faire la
+          queue !
         </p>
       </div>
       <br /><br />
       <div id="test3">
         Ton nom : <input type="text" id="source" />
-        <button id="action1">Je veux de l'aide</button><br />
+        <button id="action1" onclick="AjoutListe()">
+          Je veux de l'aide
+          <img src="img/hand.png" width="45" height="30" /></button
+        ><br />
       </div>
       <br />
       <div id="test4">
@@ -33,8 +37,13 @@
       </div>
 
       <div id="test5">
-        <button id="action2">Au suivant...!</button>
-        <button id="action3">Rafraichir la Liste</button>
+        <button id="action2">
+          Au suivant <img src="img/smoke.png" width="50" height="33" />!
+        </button>
+        <button id="action3">
+          Rafraichir la Liste
+          <img src="img/update-icon-18.png" width="33" height="33" />
+        </button>
       </div>
       <br />
       <div id="test6">
@@ -44,9 +53,9 @@
             <th>Date</th>
             <th>Passer mon tour</th>
           </tr>
-          <tr>
-            <td>Jill</td>
-            <td>date et heure</td>
+          <tr id="tr2">
+            <td id="td1"></td>
+            <td id="td2"></td>
             <td><button id="action4">Je passe mon tour</button></td>
           </tr>
           <tr>

@@ -1,22 +1,35 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap");
+
 * {
   margin: 0;
-  padding: 1;
+  padding: 0;
+}
+
+h1 {
+  font-family: "Roboto mono", mono space;
+}
+
+p {
+  font-family: "Roboto mono", mono space;
 }
 
 #test0 {
   border-style: dashed;
+  margin-top: -50px;
+  margin-right: 150px;
+  margin-left: 180px;
   text-align: center;
 }
 
 #test1 {
   line-height: 70px;
   background-color: #cc9202;
-  margin-top: 5px;
+  margin-top: 155px;
   margin-right: 150px;
-  margin-left: 180px;
+  margin-left: 170px;
   padding-left: 30px;
   font-size: 17px;
-  text-align: center;
+  text-align: left;
 }
 #test2 {
   line-height: 50px;
@@ -48,6 +61,7 @@
 
 #test6 {
   align-items: center;
+  margin-bottom: 50px;
 }
 
 #table1 {
@@ -58,12 +72,16 @@
   width: 50%;
 }
 
-h6 {
-  cursor: default;
-  margin-top: 40px;
-  font-size: 15px;
-  color: #ffffff;
-  font-family: "Montserrat", sans-serif;
+th {
+  border: 1px solid black;
+  width: 5em;
+}
+tr {
+  border: 1px solid black;
+}
+
+td {
+  border: 1px solid black;
 }
 
 #action1 {
@@ -73,7 +91,7 @@ h6 {
   background-color: rgba(9, 6, 46, 1);
   color: white;
   text-align: left;
-  font-size: 14px;
+  font-size: 15px;
   border: 2px solid rgba(9, 6, 46, 1);
   border-radius: 10px;
   font-family: "Lato", sans-serif;

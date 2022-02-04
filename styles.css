@@ -137,10 +137,10 @@ td {
   cursor: pointer;
   border: 2px double white;
 }
-#action4 {
+.action4 {
   background-color: rgb(251, 166, 27);
 }
-#action4:hover {
+.action4:hover {
   background-color: rgb(236, 223, 34);
   cursor: pointer;
   border: 2px double white;

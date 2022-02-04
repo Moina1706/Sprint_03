@@ -37,9 +37,11 @@ var btn_passer=document.createElement("button");
 tr_user.className="tr_demandant_base";
 td_user_nom.className="td_nom_demandant_base";
 td_user_time.className="td_time_demandant_base";
-btn_passer.className="btn_passer_demandant_base";
+btn_passer.className="action4";
 
 btn_passer.textContent="Je passe mon tour";
+
+//btn_passer.
 
 for(var i=0; i<participant.length;i++){
   td_user_nom.textContent=participant[i].nom_participant;
@@ -78,7 +80,11 @@ function fullDate(){
 
   var date_entiere = jour+"/"+mois+"/"+annee+", "+heure+":"+minutes+":"+secondes;
   console.log(fullDate);
+
+  document.getElementById('source').value = null;
   return date_entiere;
+
+
 }
   function suivant(){
 // Cette fonction servira à supprimer de la liste les participants qui auront été aidé

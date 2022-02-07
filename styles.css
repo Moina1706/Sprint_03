@@ -84,6 +84,10 @@ td {
   border: 1px solid black;
 }
 
+#tr1 {
+  font-family: "Roboto mono", mono space;
+}
+
 #action1 {
   margin-top: 15px;
   width: 200px;
@@ -139,9 +143,10 @@ td {
 }
 .action4 {
   background-color: rgb(251, 166, 27);
+  color: floralwhite;
 }
 .action4:hover {
-  background-color: rgb(236, 223, 34);
+  background-color: rgb(11, 30, 71);
   cursor: pointer;
   border: 2px double white;
 }

@@ -150,3 +150,15 @@ td {
   cursor: pointer;
   border: 2px double white;
 }
+.nom_mort {
+  background-color: darkslategray;
+}
+
+.tr_demandant_base1 {
+  background-color: rgb(53, 126, 30);
+}
+.nom_bt_passer {
+  text-decoration: line-through;
+  background-color: darkslategrey;
+  opacity: 0.5;
+}

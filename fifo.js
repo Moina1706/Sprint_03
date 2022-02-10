@@ -3,10 +3,11 @@
 //console.log("je suis dans le javascript");
 
 let participant = []; // declarer l'Objet qui va contenir le nom, la date, id d'une personne
-let valeur_id = 0;
-var tab_passer = []; // va stocker le id des personnes qui passent leur tour
+
+var tab_passer1 = []; // va stocker le id des personnes qui passent leur tour
 
 function AjoutListe() {
+  let valeur_id = 0;
   var nom_participant = document.getElementById("source").value;
   var date1 = fullDate();
 
@@ -144,21 +145,30 @@ function suivant() {
 
 function jepasse(event) {
   let i;
-  var tab_passer = [];
+
   const id_btn = event.target.id;
 
   const td_bouton = document.getElementById(id_btn).parentElement.parentElement;
   td_bouton.className = "nom_bt_passer"; // donne le style gris et barré
 
-  tab_passer[i] = id_btn; // stocke le id pour effacer de la liste dans la fonction rafraichir
-  i++;
+  tab_passer1.push(id_btn); // stocke le id pour effacer de la liste dans la fonction rafraichir
+  //participant.push(user);
+  //console.log(tab_passer1.length);
+  //console.log("id", id_btn);
+  //i++;
 }
 
 function rafraichir() {
-  // //console.log("Je rafraichie");
-  // for(let i=0; i<tab_passer.length;i++)
-  // {
-  //   const ligne_rafraichir
-  // }
+  console.log("Je rafraichie");
+
+  console.log("taille", tab_passer1.length);
+
+  for (let i = 0; i < tab_passer1.length; i++) {
+    console.log("tabi", tab_passer1[i]);
+    const ligne_rafraichir = document.getElementById(tab_passer1[i])
+      .parentElement.parentElement;
+    ligne_rafraichir.remove();
+  }
+
   // Cette fonction servira à rafraichir la liste et effacer les apprenant qui auront annulé le besoins d'aide
 }

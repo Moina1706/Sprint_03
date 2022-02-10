@@ -133,7 +133,7 @@ function suivant() {
   tr_user.appendChild(td_user_bouton);
 
   //console.log(table_user);
-  participant.splice(0 < ++i);
+  participant.splice(0, 1);
   console.log("participant apres slice", participant);
 
   j++;
@@ -154,7 +154,7 @@ function jepasse(event) {
 
 // Cette fonction servira à rafraichir la liste et effacer les apprenant qui auront annulé le besoins d'aide
 function rafraichir() {
-  console.log("Je rafraichie");
+  //console.log("Je rafraichie");
 
   console.log("taille", tab_passer1.length);
 

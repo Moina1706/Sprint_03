@@ -134,7 +134,7 @@ function suivant() {
   tr_user.appendChild(td_user_bouton);
 
   //console.log(table_user);
-  participant.splice(0, 1);
+  participant.splice(0 < ++i);
   console.log("participant apres slice", participant);
 
   j++;

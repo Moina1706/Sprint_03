@@ -5,11 +5,7 @@ Double cliquer sur ficher index.html pour lancer la page
 
 ## PAGE GITHUB<br>
 Lien GitHub Pages:<br>
-
-
-## WIREFRAMES<br>
-Lien Figma:<br>
-https://www.figma.com/file/3AWaNyfNRKHZKAouGpBTEN/Untitled?node-id=0%3A1
+moina1706.github.io/sprint_03/
 
 ## PRESENTATION<br>
 Lien Canva:<br>

@@ -1,4 +1,4 @@
-# LIENS DU PROJET SPRINT02 QUENTIN ET THOMAS
+# LIENS DU PROJET SPRINT03 MOINA ET THOMAS
 
 ## NOTICE SPRINT02<br>
 Double cliquer sur ficher index.html pour lancer la page

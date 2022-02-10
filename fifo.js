@@ -3,11 +3,10 @@
 //console.log("je suis dans le javascript");
 
 let participant = []; // declarer l'Objet qui va contenir le nom, la date, id d'une personne
-
+let valeur_id = 0;
 var tab_passer1 = []; // va stocker le id des personnes qui passent leur tour
 
 function AjoutListe() {
-  let valeur_id = 0;
   var nom_participant = document.getElementById("source").value;
   var date1 = fullDate();
 
@@ -144,20 +143,16 @@ function suivant() {
 // fonction quand le participant appuie sur le bouton je passe mon tour
 
 function jepasse(event) {
-  let i;
-
   const id_btn = event.target.id;
-
+  console.log("le id_choisie", id_btn);
   const td_bouton = document.getElementById(id_btn).parentElement.parentElement;
   td_bouton.className = "nom_bt_passer"; // donne le style gris et barré
+  console.log(td_bouton);
 
   tab_passer1.push(id_btn); // stocke le id pour effacer de la liste dans la fonction rafraichir
-  //participant.push(user);
-  //console.log(tab_passer1.length);
-  //console.log("id", id_btn);
-  //i++;
 }
 
+// Cette fonction servira à rafraichir la liste et effacer les apprenant qui auront annulé le besoins d'aide
 function rafraichir() {
   console.log("Je rafraichie");
 
@@ -169,6 +164,5 @@ function rafraichir() {
       .parentElement.parentElement;
     ligne_rafraichir.remove();
   }
-
-  // Cette fonction servira à rafraichir la liste et effacer les apprenant qui auront annulé le besoins d'aide
+  tab_passer1 = []; // Reinitialiser le tableau avec les apprenants ayant passer leur tour
 }

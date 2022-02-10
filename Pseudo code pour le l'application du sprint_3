@@ -1,0 +1,31 @@
+                                                                         Pseudo code pour le bouton "Je veux de l'aide"
+
+Lorsque je clique sur le bouton "je veux de l'aide" :
+  Récupérer la valeur du champ texte d'input
+  Stocker la valeur récupérée dans une variable d'état interne du programme
+  Vider le champ texte d'input
+  Récupérer la date et l'heure du moment où l'utilisateur à clicker sur le bouton
+  Ajouter la valeur récupérée, la date et l'heure du click et créer un bouton "je passe mon tour" dans un tableau visible par l'utilisateur 
+
+
+                                                                         Pseudo code pour le bouton "Au suivant"
+ 
+Lorsque je clique sur le bouton "Au suivant"
+  Selectionne la première ligne du tableau contenant le nom, la date et le bouton "je passe mon tour"
+  Prend la ligne du tableau selectionnée, la met en vert et l'envoie en dernière position du tableau
+  Supprime le bouton "je passe mon tour"
+
+
+                                                                         Pseudo code pour le bouton "Rafraichir la liste"
+
+Lorsque je clique sur le bouton "Rafraichir la liste"
+  Rechercher lignes du tableau contenant le nom, la date et le bouton "je passe mon tour" en gris et barrer
+  Supprimer lignes du tableau contenant le nom, la date et le bouton "je passe mon tour" en gris et barrer
+
+
+                                                                         Pseudo code pour le bouton "je passe mon tour"
+
+Lorsque je clique sur le bouton "je passe mon tour"
+  Met en gris et barre la ligne du tableau contenant le nom la date et le bouton "je passe mon tour" dans laquelle il se trouve
+  Desactive le bouton "je passe mon tour"
+  

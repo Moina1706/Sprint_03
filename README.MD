@@ -1,6 +1,6 @@
 # LIENS DU PROJET SPRINT03 MOINA ET THOMAS
 
-## NOTICE SPRINT02<br>
+## NOTICE SPRINT03<br>
 Double cliquer sur ficher index.html pour lancer la page
 
 ## PAGE GITHUB<br>

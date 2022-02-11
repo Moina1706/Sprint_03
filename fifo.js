@@ -104,6 +104,7 @@ function fullDate() {
 // Cette fonction servira à supprimer de la liste les participants qui auront été aidé
 
 function suivant() {
+  var j = 0;
   participant.push(participant[0]);
 
   // ******************************************************
@@ -131,9 +132,9 @@ function suivant() {
   table.deleteRow(1);
   //console.log(table_user);
   participant.splice(0, 1);
-  if (document.getElementById(tr_user).classList.contains("nom_bt_passer")) {
-    //participant
-  }
+  //if (document.getElementById(tr_user).classList.contains("nom_bt_passer")) {
+  //participant
+  //}
   console.log("participant apres slice", participant);
 }
 

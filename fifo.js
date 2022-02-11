@@ -2,8 +2,8 @@
 
 //console.log("je suis dans le javascript");
 
-let participant = []; // declarer l'Objet qui va contenir le nom, la date, id d'une personne
-let valeur_id = 0;
+var participant = []; // declarer l'Objet qui va contenir le nom, la date, id d'une personne
+var valeur_id = 0;
 var tab_passer1 = []; // va stocker le id des personnes qui passent leur tour
 
 function AjoutListe() {
@@ -18,6 +18,13 @@ function AjoutListe() {
   }
 
   participant.push(user);
+
+  // Si le input est vide n'envoie rien dans le tableau
+  if (nom_participant == "") {
+    participant.push(nom_participant);
+    user();
+  }
+
   console.log("les participants", participant);
 
   // creer le tableau
@@ -97,22 +104,11 @@ function fullDate() {
 // Cette fonction servira à supprimer de la liste les participants qui auront été aidé
 
 function suivant() {
-  var j = 0;
-  var table_user = document.getElementById("table1");
-  var tailleListe = participant.length; // Recuperation de la taille de la liste
-
-  // Permet d'effacer en mode file
-  var tableHeaderRowCount = 1;
-  var table = document.getElementById("table1");
-  var rowCount = table.rows.length;
-  table.deleteRow(1);
-
-  console.log("participant", participant[j]);
-  participant.push(participant[j]);
+  participant.push(participant[0]);
 
   // ******************************************************
   // Je vais refaire une ligne dans la table
-
+  var table = document.getElementById("table1");
   var table_user = document.getElementById("table1");
   var tr_user = document.createElement("tr");
 
@@ -125,18 +121,20 @@ function suivant() {
   td_user_time.className = "td_time_demandant_base";
 
   td_user_nom.textContent = participant[j].nom_participant;
+
   td_user_time.textContent = participant[j].date1;
 
   table_user.appendChild(tr_user);
   tr_user.appendChild(td_user_nom);
   tr_user.appendChild(td_user_time);
   tr_user.appendChild(td_user_bouton);
-
+  table.deleteRow(1);
   //console.log(table_user);
   participant.splice(0, 1);
+  if (document.getElementById(tr_user).classList.contains("nom_bt_passer")) {
+    //participant
+  }
   console.log("participant apres slice", participant);
-
-  j++;
 }
 
 //********************************************************************************

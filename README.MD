@@ -9,4 +9,5 @@ moina1706.github.io/sprint_03/
 
 ## PRESENTATION<br>
 Lien Canva:<br>
+https://www.canva.com/design/DAE3-Pb0pnA/share/preview?token=5BMwYjv4oLqClnSNCjNNKw&role=EDITOR&utm_content=DAE3-Pb0pnA&utm_campaign=designshare&utm_medium=link&utm_source=sharebutton
 
